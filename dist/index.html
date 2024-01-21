@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>html, body, .centered {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.centered {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#response {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  display: flex;
+}
+
+.country {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: #fff -19px -19px / 40px 40px;
+}
+
+.country .name {
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: large;
+  display: flex;
+}
+
+</style>
+</head>
+
+<body>
+    <div class="centered">
+        <p>Wprowadź nazwę kraju</p>
+        <input type="text" id="text-input">
+        <div id="response"></div>
+    </div>
+    <script defer="" src="/index.4de9b498.js"></script>
+</body>
+
+</html>
